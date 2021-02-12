@@ -1,335 +1,539 @@
-        body {
-            font-weight: bold;
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(23, 23, 43);
-        }
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            margin: 0;
-        }
-        
-        .header {
-            color: rgb(230, 223, 223);
-            width: 100%;
-            height: 400px;
-            background-image: url("Asset10.png");
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        
-        .header .logoMenu {
-            display: inline-flex;
-            align-items: center;
-            justify-content: space-around;
-            width: 100%;
-        }
-        
-        .header .logoMenu .logo {
-            padding-top: 15px !important;
-        }
-        
-        .header .logoMenu .menu .elements {
-            background: none;
-            font-size: large;
-            font-family: Arial, Helvetica, sans-serif;
-            border: none;
-            color: rgb(236, 232, 232);
-        }
-        
-        .header .centerHeader {
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.808);
-            position: relative;
-            width: 50%;
-            margin: auto;
-            top: 1%;
-            text-align: center;
-        }
-        
-        .header .centerHeader #brunch,
-        .header .centerHeader .readMore {
-            color: black;
-            font-weight: bold;
-        }
-        
-        .header .centerHeader #fully {
-            color: brown;
-        }
-        
-        .container .fisrtElementBody {
-            display: inline-flex;
-            width: 100%;
-            justify-content: space-around;
-            align-items: center;
-        }
-        
-        .container .fisrtElementBody .pargraph1,
-        .container .fisrtElementBody .firstImage {
-            color: seashell;
-            width: 35%;
-        }
-        
-        .container .fisrtElementBody .firstImage img {
-            width: 100%;
-            margin: 20px;
-        }
-        
-        .container .secondElementBody {
-            width: 100%;
-            height: max-content;
-            background-color: rgba(255, 255, 255, 0.658);
-            display: inline-flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-        
-        .container .secondElementBody .div1 {
-            width: 25%;
-            margin-top: 7%;
-            margin-bottom: 7%;
-            font-size: small;
-        }
-        
-        .container .cards {
-            padding-top: 5%;
-            padding-bottom: 5%;
-            border-color: red;
-            width: 100%;
-            height: max-content;
-            background-image: url("Asset7.png");
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        
-        .container .cards .centerCards {
-            width: 90%;
-            text-align: center;
-            margin: auto;
-            background-color: rgba(255, 255, 255, 0.603);
-        }
-        
-        .container .cards .centerCards .card1 {
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            justify-items: center;
-        }
-        
-        .container .cards .centerCards .card1 .cardElement1 {
-            width: 25%;
-        }
-        
-        .container .cards .centerCards .card1 .cardElement1 img {
-            width: 100%;
-        }
-        
-        .container .traditional {
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.658);
-            justify-items: center;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            width: 100%;
-        }
-        
-        .container .traditional .traditional2 {
-            text-align: center;
-            justify-items: center;
-            margin: auto;
-            width: 60%;
-            font-size: small;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-        
-        .container .traditional .traditional2 .image {
-            margin: auto;
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-        
-        .container .traditional .traditional2 .gallery {
-            margin: auto;
-            margin-left: 5px;
-            margin-right: 5px;
-            border: none;
-            background: none;
-        }
-        /* ------------------------ */
-        
-        .container .discover {
-            padding-top: 100px;
-            padding-bottom: 100px;
-            background-image: url("Asset10.png");
-            width: 100%;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: fit-content;
-        }
-        
-        .container .discover .disMenu {
-            width: 100%;
-            background-color: rgba(255, 255, 255, 0.589);
-            height: max-content;
-            text-align: center;
-        }
-        
-        .container .discover .items {
-            margin-top: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-        }
-        
-        .container .discover .items .leftItems,
-        .container .discover .items .rightItems {
-            width: 40%;
-        }
-        
-        .container .discover .disMenu h2 {
-            color: brown;
-        }
-        
-        .container .discover .disMenu .meals {
-            margin: 10px;
-            display: flex;
-            text-align: left;
-        }
-        /* --------------------------------- */
-        
-        .container #book {
-            color: white;
-            width: 100%;
-            height: auto;
-        }
-        
-        .container #book h1 {
-            text-align: center;
-            margin: 30px;
-        }
-        
-        .container #book .bookHere {
-            width: 100%;
-            height: max-content;
-            display: flex;
-            justify-content: space-evenly;
-        }
-        
-        .container #book .bookHere .champs {
-            width: 28%;
-            height: max-content;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .container #book .bookHere .champs select,
-        .container #book .bookHere .champs button {
-            width: 100% !important;
-        }
-        
-        .container #book .bookHere .champs button {
-            margin-top: 30px;
-        }
-        
-        .container #book .bookHere .champs #siaisirChamp {
-            width: 96%;
-            margin-bottom: 30px;
-            background-color: rgb(23, 23, 43);
-            color: whitesmoke;
-            border-radius: 5px;
-            border: solid whitesmoke 3px;
-            height: 30px;
-        }
-        
-        .container #book h1 {
-            position: relative;
-            bottom: 10px;
-        }
-        /* ---------------------- */
-        
-        .container .coverImage {
-            width: 100%;
-            height: 500px;
-            background-repeat: no-repeat;
-            background-image: url("Asset11.png");
-            background-size: cover;
-        }
-        /* ----------------------- */
-        
-        .container .aboveFooter {
-            width: 100%;
-            height: auto;
-            padding-top: 5%;
-            padding-bottom: 5%;
-            text-align: center;
-            color: white;
-        }
-        
-        .container .aboveFooter .content .quottes {
-            font-size: 50px;
-        }
-        
-        .container .aboveFooter .content {
-            width: 70%;
-            margin: auto;
-        }
-        
-        .container .aboveFooter .content img {
-            width: 50px;
-            height: 50px;
-            margin: 10px;
-            border-radius: 50%;
-            padding: 3px;
-            background-color: white;
-            text-align: center;
-        }
-        /* ------------------------- */
-        
-        .container .footer {
-            width: 100%;
-            height: auto;
-            padding-top: 25px;
-            padding-bottom: 25px;
-            background-color: rgba(255, 255, 255, 0.658);
-            display: flex;
-            justify-content: space-evenly
-        }
-        
-        .container .footer .About {
-            width: 30%;
-        }
-        
-        .container .footer .firstCont {
-            width: 20%;
-        }
-        
-        .container .footer .firstCont span {
-            display: block;
-            margin-bottom: 3px;
-        }
-        
-        .container .footer h3,
-        .container .footer h4 {
-            margin-bottom: 20px;
-        }
-        
-        .container .lastFooter {
-            text-align: center;
-            color: white;
-            margin: 5px;
-        }
-        
-        .container .lastFooter a {
-            text-decoration: none;
-            color: blue;
-        }
-        
-        .container .lastFooter a:hover {
-            text-decoration: underline;
-        }
+body {
+    font-weight: bold;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23, 23, 43);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+hr,
+.menuClick {
+    display: none;
+}
+
+.header {
+    color: rgb(230, 223, 223);
+    width: 100%;
+    height: 400px;
+    background-image: url("Asset10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .logoMenu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header .logoMenu .logo {
+    padding-top: 15px !important;
+}
+
+.header .logoMenu .menu .elements {
+    background: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: rgb(236, 232, 232);
+}
+
+.header .centerHeader {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.808);
+    position: relative;
+    width: 50%;
+    margin: auto;
+    top: 1%;
+    text-align: center;
+}
+
+.header .centerHeader #brunch,
+.header .centerHeader .readMore {
+    color: black;
+    font-weight: bold;
+}
+
+.header .centerHeader #fully {
+    color: brown;
+}
+
+.container .fisrtElementBody {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .fisrtElementBody .pargraph1,
+.container .fisrtElementBody .firstImage {
+    color: seashell;
+    width: 35%;
+}
+
+.container .fisrtElementBody .firstImage img {
+    width: 100%;
+    margin: 20px;
+}
+
+.container .secondElementBody {
+    width: 100%;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.658);
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .secondElementBody .div1 {
+    width: 25%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-size: small;
+}
+
+.container .cards {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-color: red;
+    width: 100%;
+    height: max-content;
+    background-image: url("Asset7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .cards .centerCards {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.container .cards .centerCards .twoElemants {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.container .cards .centerCards .card1 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.container .cards .centerCards h2 {
+    color: brown;
+}
+
+.container .cards .centerCards .card1 .cardElement1 {
+    width: 50%;
+}
+
+.container .cards .centerCards .card1 .cardElement1 img {
+    width: 100%;
+}
+
+.container .traditional {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.658);
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.container .traditional .traditional2 {
+    text-align: center;
+    justify-items: center;
+    margin: auto;
+    width: 60%;
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container .traditional .traditional2 .image {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container .traditional .traditional2 .gallery {
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    background: none;
+}
+
+
+/* ------------------------ */
+
+.container .discover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("Asset10.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+
+.container .discover .disMenu {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.589);
+    height: max-content;
+    text-align: center;
+}
+
+.container .discover .items {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .discover .items .leftItems,
+.container .discover .items .rightItems {
+    width: 40%;
+}
+
+.container .discover .disMenu h2 {
+    color: brown;
+}
+
+.container .discover .disMenu .meals {
+    margin: 10px;
+    display: flex;
+    text-align: left;
+}
+
+
+/* --------------------------------- */
+
+.container #book {
+    color: white;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.container #book h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.container #book .bookHere {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container #book .bookHere .champs {
+    width: 28%;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.container #book .bookHere .champs select,
+.container #book .bookHere .champs button {
+    width: 100% !important;
+}
+
+.container #book button {
+    width: 28%;
+    margin: auto;
+    height: max-content;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: rgb(23, 23, 43);
+    color: whitesmoke;
+    border-radius: 5px;
+    border: solid whitesmoke 3px;
+    height: 30px;
+}
+
+.container #book .bookHere .champs button {
+    margin-top: 30px;
+}
+
+.container #book .bookHere .champs #siaisirChamp {
+    width: 96%;
+    margin-bottom: 30px;
+    background-color: rgb(23, 23, 43);
+    color: whitesmoke;
+    border-radius: 5px;
+    border: solid whitesmoke 3px;
+    height: 30px;
+}
+
+.container #book h1 {
+    position: relative;
+    bottom: 10px;
+}
+
+
+/* ---------------------- */
+
+.container .coverImage {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url("Asset11.png");
+    background-size: cover;
+}
+
+
+/* ----------------------- */
+
+.container .aboveFooter {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: white;
+}
+
+.container .aboveFooter .content .quottes {
+    font-size: 50px;
+}
+
+.container .aboveFooter .content {
+    width: 70%;
+    margin: auto;
+}
+
+.container .aboveFooter .content img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: white;
+    text-align: center;
+}
+
+
+/* ------------------------- */
+
+.container .footer {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.658);
+    display: flex;
+    justify-content: space-evenly
+}
+
+.container .footer .About {
+    width: 30%;
+}
+
+.container .footer .firstCont {
+    width: 20%;
+}
+
+.container .footer .firstCont span {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.container .footer h3,
+.container .footer h4 {
+    margin-bottom: 20px;
+}
+
+.container .lastFooter {
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.container .lastFooter a {
+    text-decoration: none;
+    color: blue;
+}
+
+.container .lastFooter a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------media ------- */
+
+@media only screen and (max-width: 700px) {
+    hr {
+        display: block;
+    }
+    .container .fisrtElementBody {
+        display: block;
+        width: 100%;
+        margin: auto;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .container .fisrtElementBody .firstImage {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .container .fisrtElementBody .firstImage img {
+        margin: auto;
+        width: 70%;
+    }
+    .container .fisrtElementBody .pargraph1 {
+        display: block;
+        padding: 5%;
+        width: 70%;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .container .secondElementBody {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .container .secondElementBody .div1 {
+        display: block;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+    .container .footer {
+        display: block;
+    }
+    .container .footer .firstCont,
+    .container .footer .About {
+        margin: auto;
+        width: 60%;
+        text-align: center;
+    }
+    .container .footer .firstCont h4,
+    .container .footer .About h4 {
+        margin-bottom: 20px;
+    }
+    hr {
+        width: 50%;
+    }
+    /* ================= */
+    .container #book .bookHere {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .container #book .bookHere .champs {
+        display: block;
+        font-size: small;
+        margin: auto;
+        text-align: center;
+        width: 70%;
+    }
+    .container #book button {
+        width: 70%;
+        margin: auto;
+        height: max-content;
+        align-items: center;
+        margin-bottom: 30px;
+        background-color: rgb(23, 23, 43);
+        color: whitesmoke;
+        border-radius: 5px;
+        border: solid whitesmoke 3px;
+        height: 30px;
+    }
+    /* --------------------- */
+    .container .cards {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-color: red;
+        width: 100%;
+        height: max-content;
+        background-image: url("Asset7.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container .cards .centerCards {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.603);
+    }
+    .container .cards .centerCards .twoElemants {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .container .cards .centerCards .card1 {
+        width: 100%;
+        align-items: center;
+        display: block;
+        justify-content: space-around;
+        justify-items: center;
+    }
+    .container .cards .centerCards h2 {
+        color: brown;
+    }
+    .container .cards .centerCards .card1 .cardElement1 {
+        width: 100%;
+        margin: 5px;
+    }
+    .container .cards .centerCards .card1 .cardElement1 img {
+        width: 100%;
+    }
+    .card1 hr {
+        width: 80%;
+        border: 1px solid white;
+        background-color: white;
+    }
+    /* --------------------- */
+    .header .logoMenu .menu button {}
+    .header .logoMenu {
+        width: 80%;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .header .logoMenu .menu {
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+    .header .logoMenu .logo {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /* --------------------- */
+    .discover .disMenu .items {
+        display: block;
+        width: 100%;
+    }
+    .discover .disMenu .items .leftItems {
+        width: 100%;
+    }
+    .discover .disMenu .items .rightItems {
+        width: 100%;
+    }
+    /* ------------------------------ */
+}
